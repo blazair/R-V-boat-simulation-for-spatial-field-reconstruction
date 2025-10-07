@@ -1,0 +1,14 @@
+source;share/field_sim/hook/cmake_prefix_path.ps1
+source;share/field_sim/hook/cmake_prefix_path.dsv
+source;share/field_sim/hook/cmake_prefix_path.sh
+source;share/field_sim/hook/ld_library_path_lib.ps1
+source;share/field_sim/hook/ld_library_path_lib.dsv
+source;share/field_sim/hook/ld_library_path_lib.sh
+source;share/field_sim/hook/pythonpath.ps1
+source;share/field_sim/hook/pythonpath.dsv
+source;share/field_sim/hook/pythonpath.sh
+source;share/field_sim/local_setup.bash
+source;share/field_sim/local_setup.dsv
+source;share/field_sim/local_setup.ps1
+source;share/field_sim/local_setup.sh
+source;share/field_sim/local_setup.zsh

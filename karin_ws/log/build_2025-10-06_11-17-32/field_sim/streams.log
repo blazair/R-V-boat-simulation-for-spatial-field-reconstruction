@@ -1,0 +1,176 @@
+[0.012s] Invoking command in '/home/blazar/karin_ws/build/field_sim': CMAKE_PREFIX_PATH=/home/blazar/karin_ws/install/wamv_description:/home/blazar/karin_ws/install/simsetup:/home/blazar/karin_ws/install/field_sim:/home/blazar/vrx_ws/install/vrx_gz:/home/blazar/vrx_ws/install/wamv_gazebo:/home/blazar/vrx_ws/install/vrx_wamv_description:/home/blazar/vrx_ws/install/vrx_ros:/home/blazar/workspace/rockytimes_ws/install/localisation:/opt/ros/jazzy:/home/blazar/vrx_ws/install/vrx_px4_bridge:/home/blazar/vrx_ws/install/vrx_gazebo:/home/blazar/workspace/rockytimes_ws/install/mission:/home/blazar/workspace/rockytimes_ws/install/px4_ros_com:/home/blazar/workspace/rockytimes_ws/install/px4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(karin_ws) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(karin_ws) /usr/bin/cmake --build /home/blazar/karin_ws/build/field_sim -- -j16 -l16
+[0.054s] [  2%] Built target field_sim__rosidl_generator_type_description
+[0.060s] [  2%] Built target ament_cmake_python_copy_field_sim
+[0.069s] [  5%] Built target field_sim__cpp
+[0.070s] [ 20%] Built target field_sim__rosidl_generator_c
+[0.085s] [ 29%] Built target field_sim__rosidl_typesupport_introspection_c
+[0.086s] [ 41%] Built target field_sim__rosidl_typesupport_cpp
+[0.086s] [ 47%] Built target field_sim__rosidl_typesupport_c
+[0.086s] [ 55%] Built target field_sim__rosidl_typesupport_fastrtps_cpp
+[0.086s] [ 64%] Built target field_sim__rosidl_typesupport_fastrtps_c
+[0.087s] [ 73%] Built target field_sim__rosidl_typesupport_introspection_cpp
+[0.103s] [ 73%] Built target field_sim
+[0.119s] [ 76%] Built target field_sim__py
+[0.135s] [ 82%] Built target field_sim__rosidl_generator_py
+[0.151s] [ 88%] Built target field_sim_s__rosidl_typesupport_c
+[0.152s] [ 94%] Built target field_sim_s__rosidl_typesupport_introspection_c
+[0.152s] [100%] Built target field_sim_s__rosidl_typesupport_fastrtps_c
+[0.180s] running egg_info
+[0.189s] writing field_sim.egg-info/PKG-INFO
+[0.190s] writing dependency_links to field_sim.egg-info/dependency_links.txt
+[0.190s] writing top-level names to field_sim.egg-info/top_level.txt
+[0.218s] reading manifest file 'field_sim.egg-info/SOURCES.txt'
+[0.218s] writing manifest file 'field_sim.egg-info/SOURCES.txt'
+[0.236s] [100%] Built target ament_cmake_python_build_field_sim_egg
+[0.244s] Invoked command in '/home/blazar/karin_ws/build/field_sim' returned '0': CMAKE_PREFIX_PATH=/home/blazar/karin_ws/install/wamv_description:/home/blazar/karin_ws/install/simsetup:/home/blazar/karin_ws/install/field_sim:/home/blazar/vrx_ws/install/vrx_gz:/home/blazar/vrx_ws/install/wamv_gazebo:/home/blazar/vrx_ws/install/vrx_wamv_description:/home/blazar/vrx_ws/install/vrx_ros:/home/blazar/workspace/rockytimes_ws/install/localisation:/opt/ros/jazzy:/home/blazar/vrx_ws/install/vrx_px4_bridge:/home/blazar/vrx_ws/install/vrx_gazebo:/home/blazar/workspace/rockytimes_ws/install/mission:/home/blazar/workspace/rockytimes_ws/install/px4_ros_com:/home/blazar/workspace/rockytimes_ws/install/px4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(karin_ws) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(karin_ws) /usr/bin/cmake --build /home/blazar/karin_ws/build/field_sim -- -j16 -l16
+[0.245s] Invoking command in '/home/blazar/karin_ws/build/field_sim': CMAKE_PREFIX_PATH=/home/blazar/karin_ws/install/wamv_description:/home/blazar/karin_ws/install/simsetup:/home/blazar/karin_ws/install/field_sim:/home/blazar/vrx_ws/install/vrx_gz:/home/blazar/vrx_ws/install/wamv_gazebo:/home/blazar/vrx_ws/install/vrx_wamv_description:/home/blazar/vrx_ws/install/vrx_ros:/home/blazar/workspace/rockytimes_ws/install/localisation:/opt/ros/jazzy:/home/blazar/vrx_ws/install/vrx_px4_bridge:/home/blazar/vrx_ws/install/vrx_gazebo:/home/blazar/workspace/rockytimes_ws/install/mission:/home/blazar/workspace/rockytimes_ws/install/px4_ros_com:/home/blazar/workspace/rockytimes_ws/install/px4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(karin_ws) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(karin_ws) /usr/bin/cmake --install /home/blazar/karin_ws/build/field_sim
+[0.252s] -- Install configuration: ""
+[0.252s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/ament_index/resource_index/rosidl_interfaces/field_sim
+[0.252s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/srv/SampleField.json
+[0.252s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim
+[0.252s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/msg
+[0.252s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/msg/rosidl_generator_c__visibility_control.h
+[0.252s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/srv
+[0.252s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/srv/detail
+[0.252s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/srv/detail/sample_field__struct.h
+[0.252s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/srv/detail/sample_field__type_support.c
+[0.253s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/srv/detail/sample_field__description.c
+[0.253s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/srv/detail/sample_field__type_support.h
+[0.253s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/srv/detail/sample_field__functions.h
+[0.253s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/srv/detail/sample_field__functions.c
+[0.253s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/srv/sample_field.h
+[0.253s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/environment/library_path.sh
+[0.253s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/environment/library_path.dsv
+[0.253s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/lib/libfield_sim__rosidl_generator_c.so
+[0.253s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim
+[0.253s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/msg
+[0.253s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.253s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/srv
+[0.253s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/srv/detail
+[0.253s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/srv/detail/sample_field__rosidl_typesupport_fastrtps_c.h
+[0.253s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/lib/libfield_sim__rosidl_typesupport_fastrtps_c.so
+[0.253s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim
+[0.253s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/msg
+[0.254s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.254s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/srv
+[0.254s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/srv/detail
+[0.254s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/srv/detail/sample_field__traits.hpp
+[0.254s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/srv/detail/sample_field__struct.hpp
+[0.254s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/srv/detail/sample_field__type_support.hpp
+[0.254s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/srv/detail/sample_field__builder.hpp
+[0.254s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/srv/sample_field.hpp
+[0.254s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim
+[0.254s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/msg
+[0.254s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.254s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/srv
+[0.254s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/srv/detail
+[0.254s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/srv/detail/dds_fastrtps
+[0.254s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/srv/detail/sample_field__rosidl_typesupport_fastrtps_cpp.hpp
+[0.254s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/lib/libfield_sim__rosidl_typesupport_fastrtps_cpp.so
+[0.254s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim
+[0.254s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/msg
+[0.254s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.255s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/srv
+[0.255s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/srv/detail
+[0.255s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/srv/detail/sample_field__type_support.c
+[0.255s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/srv/detail/sample_field__rosidl_typesupport_introspection_c.h
+[0.255s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/lib/libfield_sim__rosidl_typesupport_introspection_c.so
+[0.255s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/lib/libfield_sim__rosidl_typesupport_c.so
+[0.255s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim
+[0.255s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/srv
+[0.255s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/srv/detail
+[0.255s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/srv/detail/sample_field__rosidl_typesupport_introspection_cpp.hpp
+[0.255s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/include/field_sim/field_sim/srv/detail/sample_field__type_support.cpp
+[0.255s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/lib/libfield_sim__rosidl_typesupport_introspection_cpp.so
+[0.255s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/lib/libfield_sim__rosidl_typesupport_cpp.so
+[0.255s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/environment/pythonpath.sh
+[0.255s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/environment/pythonpath.dsv
+[0.255s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/lib/python3.12/site-packages/field_sim-0.0.0-py3.12.egg-info
+[0.255s] -- Installing: /home/blazar/karin_ws/install/field_sim/lib/python3.12/site-packages/field_sim-0.0.0-py3.12.egg-info/SOURCES.txt
+[0.255s] -- Installing: /home/blazar/karin_ws/install/field_sim/lib/python3.12/site-packages/field_sim-0.0.0-py3.12.egg-info/dependency_links.txt
+[0.255s] -- Installing: /home/blazar/karin_ws/install/field_sim/lib/python3.12/site-packages/field_sim-0.0.0-py3.12.egg-info/top_level.txt
+[0.256s] -- Installing: /home/blazar/karin_ws/install/field_sim/lib/python3.12/site-packages/field_sim-0.0.0-py3.12.egg-info/PKG-INFO
+[0.256s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/lib/python3.12/site-packages/field_sim
+[0.256s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/lib/python3.12/site-packages/field_sim/srv
+[0.256s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/lib/python3.12/site-packages/field_sim/srv/_sample_field.py
+[0.256s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/lib/python3.12/site-packages/field_sim/srv/_sample_field_s.c
+[0.256s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/lib/python3.12/site-packages/field_sim/srv/__init__.py
+[0.256s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/lib/python3.12/site-packages/field_sim/field_sim_s__rosidl_typesupport_fastrtps_c.so
+[0.256s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/lib/python3.12/site-packages/field_sim/field_sim_s__rosidl_typesupport_c.so
+[0.256s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/lib/python3.12/site-packages/field_sim/_field_sim_s.ep.rosidl_typesupport_c.c
+[0.256s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/lib/python3.12/site-packages/field_sim/_field_sim_s.ep.rosidl_typesupport_introspection_c.c
+[0.256s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/lib/python3.12/site-packages/field_sim/field_sim_s__rosidl_typesupport_introspection_c.so
+[0.256s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/lib/python3.12/site-packages/field_sim/__init__.py
+[0.256s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/lib/python3.12/site-packages/field_sim/_field_sim_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.278s] Listing '/home/blazar/karin_ws/install/field_sim/lib/python3.12/site-packages/field_sim'...
+[0.278s] Listing '/home/blazar/karin_ws/install/field_sim/lib/python3.12/site-packages/field_sim/srv'...
+[0.282s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/lib/python3.12/site-packages/field_sim/field_sim_s__rosidl_typesupport_fastrtps_c.so
+[0.282s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/lib/python3.12/site-packages/field_sim/field_sim_s__rosidl_typesupport_introspection_c.so
+[0.282s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/lib/python3.12/site-packages/field_sim/field_sim_s__rosidl_typesupport_c.so
+[0.282s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/lib/libfield_sim__rosidl_generator_py.so
+[0.282s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/srv/SampleField.idl
+[0.283s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/srv/SampleField.srv
+[0.283s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/lib/field_sim/ground_truth_field_node.py
+[0.283s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/lib/field_sim/field_sampler_node.py
+[0.283s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/lib/field_sim/gp_reconstructor_node.py
+[0.283s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/lib/field_sim/boat_tf_publisher.py
+[0.283s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/lib/field_sim/test_geotagging.py
+[0.283s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/lib/field_sim/mission_test.py
+[0.283s] -- Installing: /home/blazar/karin_ws/install/field_sim/lib/field_sim/lawnmower_mission.py
+[0.283s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/lib/field_sim/field_sampler.py
+[0.283s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim//launch
+[0.283s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim//launch/field_validation.launch.py
+[0.283s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim//config
+[0.283s] -- Installing: /home/blazar/karin_ws/install/field_sim/share/field_sim//config/generated_field_params.yaml
+[0.283s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim//config/field_params.yaml
+[0.283s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim//rviz
+[0.283s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim//rviz/field_view.rviz
+[0.283s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim//scripts
+[0.283s] -- Installing: /home/blazar/karin_ws/install/field_sim/share/field_sim//scripts/lawnmower_mission.py
+[0.283s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim//scripts/boat_tf_publisher.py
+[0.283s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim//scripts/test_geotagging.py
+[0.283s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim//scripts/field_sampler.py
+[0.283s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim//scripts/mission_test.py
+[0.283s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim//scripts/field_sampler_node.py
+[0.284s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim//scripts/gp_reconstructor_node.py
+[0.284s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim//scripts/ground_truth_field_node.py
+[0.284s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/ament_index/resource_index/package_run_dependencies/field_sim
+[0.284s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/ament_index/resource_index/parent_prefix_path/field_sim
+[0.284s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/environment/ament_prefix_path.sh
+[0.284s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/environment/ament_prefix_path.dsv
+[0.284s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/environment/path.sh
+[0.284s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/environment/path.dsv
+[0.284s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/local_setup.bash
+[0.284s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/local_setup.sh
+[0.284s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/local_setup.zsh
+[0.284s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/local_setup.dsv
+[0.284s] -- Installing: /home/blazar/karin_ws/install/field_sim/share/field_sim/package.dsv
+[0.284s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/ament_index/resource_index/packages/field_sim
+[0.284s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/cmake/export_field_sim__rosidl_generator_cExport.cmake
+[0.284s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/cmake/export_field_sim__rosidl_generator_cExport-noconfig.cmake
+[0.284s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/cmake/export_field_sim__rosidl_typesupport_fastrtps_cExport.cmake
+[0.284s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/cmake/export_field_sim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.284s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/cmake/export_field_sim__rosidl_generator_cppExport.cmake
+[0.284s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/cmake/export_field_sim__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.284s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/cmake/export_field_sim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.284s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/cmake/field_sim__rosidl_typesupport_introspection_cExport.cmake
+[0.284s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/cmake/field_sim__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.284s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/cmake/field_sim__rosidl_typesupport_cExport.cmake
+[0.284s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/cmake/field_sim__rosidl_typesupport_cExport-noconfig.cmake
+[0.284s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/cmake/field_sim__rosidl_typesupport_introspection_cppExport.cmake
+[0.285s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/cmake/field_sim__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.285s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/cmake/field_sim__rosidl_typesupport_cppExport.cmake
+[0.285s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/cmake/field_sim__rosidl_typesupport_cppExport-noconfig.cmake
+[0.285s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/cmake/export_field_sim__rosidl_generator_pyExport.cmake
+[0.285s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/cmake/export_field_sim__rosidl_generator_pyExport-noconfig.cmake
+[0.285s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/cmake/rosidl_cmake-extras.cmake
+[0.285s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.285s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.285s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/cmake/ament_cmake_export_libraries-extras.cmake
+[0.285s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/cmake/ament_cmake_export_targets-extras.cmake
+[0.285s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.285s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.285s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/cmake/field_simConfig.cmake
+[0.285s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/cmake/field_simConfig-version.cmake
+[0.285s] -- Up-to-date: /home/blazar/karin_ws/install/field_sim/share/field_sim/package.xml
+[0.286s] Invoked command in '/home/blazar/karin_ws/build/field_sim' returned '0': CMAKE_PREFIX_PATH=/home/blazar/karin_ws/install/wamv_description:/home/blazar/karin_ws/install/simsetup:/home/blazar/karin_ws/install/field_sim:/home/blazar/vrx_ws/install/vrx_gz:/home/blazar/vrx_ws/install/wamv_gazebo:/home/blazar/vrx_ws/install/vrx_wamv_description:/home/blazar/vrx_ws/install/vrx_ros:/home/blazar/workspace/rockytimes_ws/install/localisation:/opt/ros/jazzy:/home/blazar/vrx_ws/install/vrx_px4_bridge:/home/blazar/vrx_ws/install/vrx_gazebo:/home/blazar/workspace/rockytimes_ws/install/mission:/home/blazar/workspace/rockytimes_ws/install/px4_ros_com:/home/blazar/workspace/rockytimes_ws/install/px4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(karin_ws) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(karin_ws) /usr/bin/cmake --install /home/blazar/karin_ws/build/field_sim

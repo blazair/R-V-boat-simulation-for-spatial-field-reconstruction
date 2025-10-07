@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from field_sim/srv/SampleField.srv
+// generated code does not contain a copyright notice
+
+
+module field_sim {
+  module srv {
+    struct SampleField_Request {
+      double latitude;
+
+      double longitude;
+    };
+    struct SampleField_Response {
+      boolean success;
+
+      double temperature;
+
+      double x_enu;
+
+      double y_enu;
+    };
+  };
+};

@@ -1,0 +1,2 @@
+Invoking command in '/home/blazar/karin_ws/build/simsetup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/blazar/karin_ws/build/simsetup -- -j16 -l16
+Invoked command in '/home/blazar/karin_ws/build/simsetup' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/blazar/karin_ws/build/simsetup -- -j16 -l16

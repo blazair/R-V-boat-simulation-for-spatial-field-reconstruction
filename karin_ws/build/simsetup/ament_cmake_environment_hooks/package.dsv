@@ -1,0 +1,4 @@
+source;share/simsetup/local_setup.bash
+source;share/simsetup/local_setup.dsv
+source;share/simsetup/local_setup.sh
+source;share/simsetup/local_setup.zsh

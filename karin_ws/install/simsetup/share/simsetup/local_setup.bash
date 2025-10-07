@@ -1,0 +1,1 @@
+/home/blazar/karin_ws/build/simsetup/ament_cmake_environment_hooks/local_setup.bash

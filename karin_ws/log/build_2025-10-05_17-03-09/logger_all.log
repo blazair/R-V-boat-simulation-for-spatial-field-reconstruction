@@ -1,0 +1,285 @@
+[0.059s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.059s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7b59629594c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b5962baa6c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b5962baa6c0>>, mixin_verb=('build',))
+[0.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.082s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/blazar/karin_ws'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/field_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/field_sim) by extension 'ignore'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/field_sim) by extension 'ignore_ament_install'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/field_sim) by extensions ['colcon_pkg']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/field_sim) by extension 'colcon_pkg'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/field_sim) by extensions ['colcon_meta']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/field_sim) by extension 'colcon_meta'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/field_sim) by extensions ['ros']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/field_sim) by extension 'ros'
+[0.099s] DEBUG:colcon.colcon_core.package_identification:Package 'src/field_sim' with type 'ros.ament_cmake' and name 'field_sim'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/simsetup) by extensions ['ignore', 'ignore_ament_install']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/simsetup) by extension 'ignore'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/simsetup) by extension 'ignore_ament_install'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/simsetup) by extensions ['colcon_pkg']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/simsetup) by extension 'colcon_pkg'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/simsetup) by extensions ['colcon_meta']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/simsetup) by extension 'colcon_meta'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/simsetup) by extensions ['ros']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/simsetup) by extension 'ros'
+[0.100s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simsetup' with type 'ros.ament_cmake' and name 'simsetup'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/wamv_description) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/wamv_description) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/wamv_description) by extension 'ignore_ament_install'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/wamv_description) by extensions ['colcon_pkg']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/wamv_description) by extension 'colcon_pkg'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/wamv_description) by extensions ['colcon_meta']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/wamv_description) by extension 'colcon_meta'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/wamv_description) by extensions ['ros']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/wamv_description) by extension 'ros'
+[0.100s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wamv_description' with type 'ros.ament_cmake' and name 'wamv_description'
+[0.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.111s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/blazar/karin_ws/install
+[0.111s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/blazar/vrx_ws/install
+[0.111s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/blazar/workspace/rockytimes_ws/install
+[0.112s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 324 installed packages in /opt/ros/jazzy
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'field_sim' build argument 'cmake_args' from command line to 'None'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'field_sim' build argument 'cmake_target' from command line to 'None'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'field_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'field_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'field_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'field_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'field_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'field_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.135s] Level 5:colcon.colcon_core.verb:set package 'field_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.135s] DEBUG:colcon.colcon_core.verb:Building package 'field_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/blazar/karin_ws/build/field_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/blazar/karin_ws/install/field_sim', 'merge_install': False, 'path': '/home/blazar/karin_ws/src/field_sim', 'symlink_install': False, 'test_result_base': None}
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'simsetup' build argument 'cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'simsetup' build argument 'cmake_target' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'simsetup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'simsetup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'simsetup' build argument 'cmake_clean_first' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'simsetup' build argument 'cmake_force_configure' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'simsetup' build argument 'ament_cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'simsetup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'simsetup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.136s] DEBUG:colcon.colcon_core.verb:Building package 'simsetup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/blazar/karin_ws/build/simsetup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/blazar/karin_ws/install/simsetup', 'merge_install': False, 'path': '/home/blazar/karin_ws/src/simsetup', 'symlink_install': False, 'test_result_base': None}
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'wamv_description' build argument 'cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'wamv_description' build argument 'cmake_target' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'wamv_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'wamv_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'wamv_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'wamv_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'wamv_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'wamv_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.136s] Level 5:colcon.colcon_core.verb:set package 'wamv_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.136s] DEBUG:colcon.colcon_core.verb:Building package 'wamv_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/blazar/karin_ws/build/wamv_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/blazar/karin_ws/install/wamv_description', 'merge_install': False, 'path': '/home/blazar/karin_ws/src/wamv_description', 'symlink_install': False, 'test_result_base': None}
+[0.136s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.136s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.137s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/blazar/karin_ws/src/field_sim' with build type 'ament_cmake'
+[0.137s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/blazar/karin_ws/src/field_sim'
+[0.137s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.138s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.138s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.140s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/blazar/karin_ws/src/simsetup' with build type 'ament_cmake'
+[0.140s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/blazar/karin_ws/src/simsetup'
+[0.140s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.140s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.143s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/blazar/karin_ws/src/wamv_description' with build type 'ament_cmake'
+[0.143s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/blazar/karin_ws/src/wamv_description'
+[0.143s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.143s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.148s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/blazar/karin_ws/build/field_sim': CMAKE_PREFIX_PATH=/home/blazar/karin_ws/install/wamv_description:/home/blazar/vrx_ws/install/vrx_gz:/home/blazar/vrx_ws/install/wamv_gazebo:/home/blazar/vrx_ws/install/vrx_wamv_description:/home/blazar/vrx_ws/install/vrx_ros:/home/blazar/workspace/rockytimes_ws/install/localisation:/opt/ros/jazzy:/home/blazar/vrx_ws/install/vrx_px4_bridge:/home/blazar/vrx_ws/install/vrx_gazebo:/home/blazar/karin_ws/install/simsetup:/home/blazar/karin_ws/install/field_sim:/home/blazar/vrx_ws/install:/home/blazar/workspace/rockytimes_ws/install/mission:/home/blazar/workspace/rockytimes_ws/install/px4_ros_com:/home/blazar/workspace/rockytimes_ws/install/px4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(karin_ws) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(karin_ws) /usr/bin/cmake --build /home/blazar/karin_ws/build/field_sim -- -j16 -l16
+[0.149s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/blazar/karin_ws/build/simsetup': CMAKE_PREFIX_PATH=/home/blazar/karin_ws/install/wamv_description:/home/blazar/vrx_ws/install/vrx_gz:/home/blazar/vrx_ws/install/wamv_gazebo:/home/blazar/vrx_ws/install/vrx_wamv_description:/home/blazar/vrx_ws/install/vrx_ros:/home/blazar/workspace/rockytimes_ws/install/localisation:/opt/ros/jazzy:/home/blazar/vrx_ws/install/vrx_px4_bridge:/home/blazar/vrx_ws/install/vrx_gazebo:/home/blazar/karin_ws/install/simsetup:/home/blazar/karin_ws/install/field_sim:/home/blazar/vrx_ws/install:/home/blazar/workspace/rockytimes_ws/install/mission:/home/blazar/workspace/rockytimes_ws/install/px4_ros_com:/home/blazar/workspace/rockytimes_ws/install/px4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(karin_ws) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(karin_ws) /usr/bin/cmake --build /home/blazar/karin_ws/build/simsetup -- -j16 -l16
+[0.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/blazar/karin_ws/build/wamv_description': CMAKE_PREFIX_PATH=/home/blazar/karin_ws/install/wamv_description:/home/blazar/vrx_ws/install/vrx_gz:/home/blazar/vrx_ws/install/wamv_gazebo:/home/blazar/vrx_ws/install/vrx_wamv_description:/home/blazar/vrx_ws/install/vrx_ros:/home/blazar/workspace/rockytimes_ws/install/localisation:/opt/ros/jazzy:/home/blazar/vrx_ws/install/vrx_px4_bridge:/home/blazar/vrx_ws/install/vrx_gazebo:/home/blazar/karin_ws/install/simsetup:/home/blazar/karin_ws/install/field_sim:/home/blazar/vrx_ws/install:/home/blazar/workspace/rockytimes_ws/install/mission:/home/blazar/workspace/rockytimes_ws/install/px4_ros_com:/home/blazar/workspace/rockytimes_ws/install/px4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(karin_ws) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(karin_ws) /usr/bin/cmake --build /home/blazar/karin_ws/build/wamv_description -- -j16 -l16
+[0.176s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/blazar/karin_ws/build/simsetup' returned '0': CMAKE_PREFIX_PATH=/home/blazar/karin_ws/install/wamv_description:/home/blazar/vrx_ws/install/vrx_gz:/home/blazar/vrx_ws/install/wamv_gazebo:/home/blazar/vrx_ws/install/vrx_wamv_description:/home/blazar/vrx_ws/install/vrx_ros:/home/blazar/workspace/rockytimes_ws/install/localisation:/opt/ros/jazzy:/home/blazar/vrx_ws/install/vrx_px4_bridge:/home/blazar/vrx_ws/install/vrx_gazebo:/home/blazar/karin_ws/install/simsetup:/home/blazar/karin_ws/install/field_sim:/home/blazar/vrx_ws/install:/home/blazar/workspace/rockytimes_ws/install/mission:/home/blazar/workspace/rockytimes_ws/install/px4_ros_com:/home/blazar/workspace/rockytimes_ws/install/px4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(karin_ws) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(karin_ws) /usr/bin/cmake --build /home/blazar/karin_ws/build/simsetup -- -j16 -l16
+[0.183s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/blazar/karin_ws/build/simsetup': CMAKE_PREFIX_PATH=/home/blazar/karin_ws/install/wamv_description:/home/blazar/vrx_ws/install/vrx_gz:/home/blazar/vrx_ws/install/wamv_gazebo:/home/blazar/vrx_ws/install/vrx_wamv_description:/home/blazar/vrx_ws/install/vrx_ros:/home/blazar/workspace/rockytimes_ws/install/localisation:/opt/ros/jazzy:/home/blazar/vrx_ws/install/vrx_px4_bridge:/home/blazar/vrx_ws/install/vrx_gazebo:/home/blazar/karin_ws/install/simsetup:/home/blazar/karin_ws/install/field_sim:/home/blazar/vrx_ws/install:/home/blazar/workspace/rockytimes_ws/install/mission:/home/blazar/workspace/rockytimes_ws/install/px4_ros_com:/home/blazar/workspace/rockytimes_ws/install/px4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(karin_ws) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(karin_ws) /usr/bin/cmake --install /home/blazar/karin_ws/build/simsetup
+[0.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/blazar/karin_ws/build/wamv_description' returned '0': CMAKE_PREFIX_PATH=/home/blazar/karin_ws/install/wamv_description:/home/blazar/vrx_ws/install/vrx_gz:/home/blazar/vrx_ws/install/wamv_gazebo:/home/blazar/vrx_ws/install/vrx_wamv_description:/home/blazar/vrx_ws/install/vrx_ros:/home/blazar/workspace/rockytimes_ws/install/localisation:/opt/ros/jazzy:/home/blazar/vrx_ws/install/vrx_px4_bridge:/home/blazar/vrx_ws/install/vrx_gazebo:/home/blazar/karin_ws/install/simsetup:/home/blazar/karin_ws/install/field_sim:/home/blazar/vrx_ws/install:/home/blazar/workspace/rockytimes_ws/install/mission:/home/blazar/workspace/rockytimes_ws/install/px4_ros_com:/home/blazar/workspace/rockytimes_ws/install/px4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(karin_ws) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(karin_ws) /usr/bin/cmake --build /home/blazar/karin_ws/build/wamv_description -- -j16 -l16
+[0.185s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/blazar/karin_ws/build/wamv_description': CMAKE_PREFIX_PATH=/home/blazar/karin_ws/install/wamv_description:/home/blazar/vrx_ws/install/vrx_gz:/home/blazar/vrx_ws/install/wamv_gazebo:/home/blazar/vrx_ws/install/vrx_wamv_description:/home/blazar/vrx_ws/install/vrx_ros:/home/blazar/workspace/rockytimes_ws/install/localisation:/opt/ros/jazzy:/home/blazar/vrx_ws/install/vrx_px4_bridge:/home/blazar/vrx_ws/install/vrx_gazebo:/home/blazar/karin_ws/install/simsetup:/home/blazar/karin_ws/install/field_sim:/home/blazar/vrx_ws/install:/home/blazar/workspace/rockytimes_ws/install/mission:/home/blazar/workspace/rockytimes_ws/install/px4_ros_com:/home/blazar/workspace/rockytimes_ws/install/px4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(karin_ws) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(karin_ws) /usr/bin/cmake --install /home/blazar/karin_ws/build/wamv_description
+[0.192s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wamv_description)
+[0.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/blazar/karin_ws/build/wamv_description' returned '0': CMAKE_PREFIX_PATH=/home/blazar/karin_ws/install/wamv_description:/home/blazar/vrx_ws/install/vrx_gz:/home/blazar/vrx_ws/install/wamv_gazebo:/home/blazar/vrx_ws/install/vrx_wamv_description:/home/blazar/vrx_ws/install/vrx_ros:/home/blazar/workspace/rockytimes_ws/install/localisation:/opt/ros/jazzy:/home/blazar/vrx_ws/install/vrx_px4_bridge:/home/blazar/vrx_ws/install/vrx_gazebo:/home/blazar/karin_ws/install/simsetup:/home/blazar/karin_ws/install/field_sim:/home/blazar/vrx_ws/install:/home/blazar/workspace/rockytimes_ws/install/mission:/home/blazar/workspace/rockytimes_ws/install/px4_ros_com:/home/blazar/workspace/rockytimes_ws/install/px4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(karin_ws) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(karin_ws) /usr/bin/cmake --install /home/blazar/karin_ws/build/wamv_description
+[0.194s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/wamv_description' for CMake module files
+[0.194s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/wamv_description' for CMake config files
+[0.195s] Level 1:colcon.colcon_core.shell:create_environment_hook('wamv_description', 'cmake_prefix_path')
+[0.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blazar/karin_ws/install/wamv_description/share/wamv_description/hook/cmake_prefix_path.ps1'
+[0.195s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/blazar/karin_ws/install/wamv_description/share/wamv_description/hook/cmake_prefix_path.dsv'
+[0.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blazar/karin_ws/install/wamv_description/share/wamv_description/hook/cmake_prefix_path.sh'
+[0.196s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/wamv_description/bin'
+[0.196s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/wamv_description/lib/pkgconfig/wamv_description.pc'
+[0.196s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/wamv_description/lib/python3.12/site-packages'
+[0.196s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/wamv_description/bin'
+[0.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/blazar/karin_ws/install/wamv_description/share/wamv_description/package.ps1'
+[0.197s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/blazar/karin_ws/install/wamv_description/share/wamv_description/package.dsv'
+[0.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/blazar/karin_ws/install/wamv_description/share/wamv_description/package.sh'
+[0.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/blazar/karin_ws/install/wamv_description/share/wamv_description/package.bash'
+[0.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/blazar/karin_ws/install/wamv_description/share/wamv_description/package.zsh'
+[0.198s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/blazar/karin_ws/install/wamv_description/share/colcon-core/packages/wamv_description)
+[0.198s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wamv_description)
+[0.198s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/wamv_description' for CMake module files
+[0.199s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/wamv_description' for CMake config files
+[0.199s] Level 1:colcon.colcon_core.shell:create_environment_hook('wamv_description', 'cmake_prefix_path')
+[0.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blazar/karin_ws/install/wamv_description/share/wamv_description/hook/cmake_prefix_path.ps1'
+[0.199s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/blazar/karin_ws/install/wamv_description/share/wamv_description/hook/cmake_prefix_path.dsv'
+[0.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blazar/karin_ws/install/wamv_description/share/wamv_description/hook/cmake_prefix_path.sh'
+[0.200s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/wamv_description/bin'
+[0.200s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/wamv_description/lib/pkgconfig/wamv_description.pc'
+[0.200s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/wamv_description/lib/python3.12/site-packages'
+[0.200s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/wamv_description/bin'
+[0.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/blazar/karin_ws/install/wamv_description/share/wamv_description/package.ps1'
+[0.200s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/blazar/karin_ws/install/wamv_description/share/wamv_description/package.dsv'
+[0.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/blazar/karin_ws/install/wamv_description/share/wamv_description/package.sh'
+[0.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/blazar/karin_ws/install/wamv_description/share/wamv_description/package.bash'
+[0.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/blazar/karin_ws/install/wamv_description/share/wamv_description/package.zsh'
+[0.201s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/blazar/karin_ws/install/wamv_description/share/colcon-core/packages/wamv_description)
+[0.202s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simsetup)
+[0.202s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/simsetup' for CMake module files
+[0.202s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/simsetup' for CMake config files
+[0.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/blazar/karin_ws/build/simsetup' returned '0': CMAKE_PREFIX_PATH=/home/blazar/karin_ws/install/wamv_description:/home/blazar/vrx_ws/install/vrx_gz:/home/blazar/vrx_ws/install/wamv_gazebo:/home/blazar/vrx_ws/install/vrx_wamv_description:/home/blazar/vrx_ws/install/vrx_ros:/home/blazar/workspace/rockytimes_ws/install/localisation:/opt/ros/jazzy:/home/blazar/vrx_ws/install/vrx_px4_bridge:/home/blazar/vrx_ws/install/vrx_gazebo:/home/blazar/karin_ws/install/simsetup:/home/blazar/karin_ws/install/field_sim:/home/blazar/vrx_ws/install:/home/blazar/workspace/rockytimes_ws/install/mission:/home/blazar/workspace/rockytimes_ws/install/px4_ros_com:/home/blazar/workspace/rockytimes_ws/install/px4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(karin_ws) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(karin_ws) /usr/bin/cmake --install /home/blazar/karin_ws/build/simsetup
+[0.203s] Level 1:colcon.colcon_core.shell:create_environment_hook('simsetup', 'cmake_prefix_path')
+[0.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blazar/karin_ws/install/simsetup/share/simsetup/hook/cmake_prefix_path.ps1'
+[0.203s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/blazar/karin_ws/install/simsetup/share/simsetup/hook/cmake_prefix_path.dsv'
+[0.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blazar/karin_ws/install/simsetup/share/simsetup/hook/cmake_prefix_path.sh'
+[0.204s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/simsetup/lib'
+[0.204s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/simsetup/bin'
+[0.204s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/simsetup/lib/pkgconfig/simsetup.pc'
+[0.204s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/simsetup/lib/python3.12/site-packages'
+[0.204s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/simsetup/bin'
+[0.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/blazar/karin_ws/install/simsetup/share/simsetup/package.ps1'
+[0.204s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/blazar/karin_ws/install/simsetup/share/simsetup/package.dsv'
+[0.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/blazar/karin_ws/install/simsetup/share/simsetup/package.sh'
+[0.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/blazar/karin_ws/install/simsetup/share/simsetup/package.bash'
+[0.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/blazar/karin_ws/install/simsetup/share/simsetup/package.zsh'
+[0.205s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/blazar/karin_ws/install/simsetup/share/colcon-core/packages/simsetup)
+[0.206s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simsetup)
+[0.206s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/simsetup' for CMake module files
+[0.206s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/simsetup' for CMake config files
+[0.206s] Level 1:colcon.colcon_core.shell:create_environment_hook('simsetup', 'cmake_prefix_path')
+[0.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blazar/karin_ws/install/simsetup/share/simsetup/hook/cmake_prefix_path.ps1'
+[0.206s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/blazar/karin_ws/install/simsetup/share/simsetup/hook/cmake_prefix_path.dsv'
+[0.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blazar/karin_ws/install/simsetup/share/simsetup/hook/cmake_prefix_path.sh'
+[0.207s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/simsetup/lib'
+[0.207s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/simsetup/bin'
+[0.207s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/simsetup/lib/pkgconfig/simsetup.pc'
+[0.207s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/simsetup/lib/python3.12/site-packages'
+[0.207s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/simsetup/bin'
+[0.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/blazar/karin_ws/install/simsetup/share/simsetup/package.ps1'
+[0.208s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/blazar/karin_ws/install/simsetup/share/simsetup/package.dsv'
+[0.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/blazar/karin_ws/install/simsetup/share/simsetup/package.sh'
+[0.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/blazar/karin_ws/install/simsetup/share/simsetup/package.bash'
+[0.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/blazar/karin_ws/install/simsetup/share/simsetup/package.zsh'
+[0.209s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/blazar/karin_ws/install/simsetup/share/colcon-core/packages/simsetup)
+[0.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/blazar/karin_ws/build/field_sim' returned '0': CMAKE_PREFIX_PATH=/home/blazar/karin_ws/install/wamv_description:/home/blazar/vrx_ws/install/vrx_gz:/home/blazar/vrx_ws/install/wamv_gazebo:/home/blazar/vrx_ws/install/vrx_wamv_description:/home/blazar/vrx_ws/install/vrx_ros:/home/blazar/workspace/rockytimes_ws/install/localisation:/opt/ros/jazzy:/home/blazar/vrx_ws/install/vrx_px4_bridge:/home/blazar/vrx_ws/install/vrx_gazebo:/home/blazar/karin_ws/install/simsetup:/home/blazar/karin_ws/install/field_sim:/home/blazar/vrx_ws/install:/home/blazar/workspace/rockytimes_ws/install/mission:/home/blazar/workspace/rockytimes_ws/install/px4_ros_com:/home/blazar/workspace/rockytimes_ws/install/px4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(karin_ws) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(karin_ws) /usr/bin/cmake --build /home/blazar/karin_ws/build/field_sim -- -j16 -l16
+[0.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/blazar/karin_ws/build/field_sim': CMAKE_PREFIX_PATH=/home/blazar/karin_ws/install/wamv_description:/home/blazar/vrx_ws/install/vrx_gz:/home/blazar/vrx_ws/install/wamv_gazebo:/home/blazar/vrx_ws/install/vrx_wamv_description:/home/blazar/vrx_ws/install/vrx_ros:/home/blazar/workspace/rockytimes_ws/install/localisation:/opt/ros/jazzy:/home/blazar/vrx_ws/install/vrx_px4_bridge:/home/blazar/vrx_ws/install/vrx_gazebo:/home/blazar/karin_ws/install/simsetup:/home/blazar/karin_ws/install/field_sim:/home/blazar/vrx_ws/install:/home/blazar/workspace/rockytimes_ws/install/mission:/home/blazar/workspace/rockytimes_ws/install/px4_ros_com:/home/blazar/workspace/rockytimes_ws/install/px4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(karin_ws) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(karin_ws) /usr/bin/cmake --install /home/blazar/karin_ws/build/field_sim
+[0.419s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(field_sim)
+[0.420s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/field_sim' for CMake module files
+[0.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/blazar/karin_ws/build/field_sim' returned '0': CMAKE_PREFIX_PATH=/home/blazar/karin_ws/install/wamv_description:/home/blazar/vrx_ws/install/vrx_gz:/home/blazar/vrx_ws/install/wamv_gazebo:/home/blazar/vrx_ws/install/vrx_wamv_description:/home/blazar/vrx_ws/install/vrx_ros:/home/blazar/workspace/rockytimes_ws/install/localisation:/opt/ros/jazzy:/home/blazar/vrx_ws/install/vrx_px4_bridge:/home/blazar/vrx_ws/install/vrx_gazebo:/home/blazar/karin_ws/install/simsetup:/home/blazar/karin_ws/install/field_sim:/home/blazar/vrx_ws/install:/home/blazar/workspace/rockytimes_ws/install/mission:/home/blazar/workspace/rockytimes_ws/install/px4_ros_com:/home/blazar/workspace/rockytimes_ws/install/px4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(karin_ws) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(karin_ws) /usr/bin/cmake --install /home/blazar/karin_ws/build/field_sim
+[0.420s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/field_sim' for CMake config files
+[0.420s] Level 1:colcon.colcon_core.shell:create_environment_hook('field_sim', 'cmake_prefix_path')
+[0.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blazar/karin_ws/install/field_sim/share/field_sim/hook/cmake_prefix_path.ps1'
+[0.421s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/blazar/karin_ws/install/field_sim/share/field_sim/hook/cmake_prefix_path.dsv'
+[0.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blazar/karin_ws/install/field_sim/share/field_sim/hook/cmake_prefix_path.sh'
+[0.421s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/field_sim/lib'
+[0.421s] Level 1:colcon.colcon_core.shell:create_environment_hook('field_sim', 'ld_library_path_lib')
+[0.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blazar/karin_ws/install/field_sim/share/field_sim/hook/ld_library_path_lib.ps1'
+[0.422s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/blazar/karin_ws/install/field_sim/share/field_sim/hook/ld_library_path_lib.dsv'
+[0.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blazar/karin_ws/install/field_sim/share/field_sim/hook/ld_library_path_lib.sh'
+[0.422s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/field_sim/bin'
+[0.422s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/field_sim/lib/pkgconfig/field_sim.pc'
+[0.422s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/field_sim/lib/python3.12/site-packages'
+[0.422s] Level 1:colcon.colcon_core.shell:create_environment_hook('field_sim', 'pythonpath')
+[0.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blazar/karin_ws/install/field_sim/share/field_sim/hook/pythonpath.ps1'
+[0.423s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/blazar/karin_ws/install/field_sim/share/field_sim/hook/pythonpath.dsv'
+[0.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blazar/karin_ws/install/field_sim/share/field_sim/hook/pythonpath.sh'
+[0.423s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/field_sim/bin'
+[0.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/blazar/karin_ws/install/field_sim/share/field_sim/package.ps1'
+[0.424s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/blazar/karin_ws/install/field_sim/share/field_sim/package.dsv'
+[0.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/blazar/karin_ws/install/field_sim/share/field_sim/package.sh'
+[0.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/blazar/karin_ws/install/field_sim/share/field_sim/package.bash'
+[0.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/blazar/karin_ws/install/field_sim/share/field_sim/package.zsh'
+[0.425s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/blazar/karin_ws/install/field_sim/share/colcon-core/packages/field_sim)
+[0.425s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(field_sim)
+[0.425s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/field_sim' for CMake module files
+[0.425s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/field_sim' for CMake config files
+[0.425s] Level 1:colcon.colcon_core.shell:create_environment_hook('field_sim', 'cmake_prefix_path')
+[0.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blazar/karin_ws/install/field_sim/share/field_sim/hook/cmake_prefix_path.ps1'
+[0.426s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/blazar/karin_ws/install/field_sim/share/field_sim/hook/cmake_prefix_path.dsv'
+[0.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blazar/karin_ws/install/field_sim/share/field_sim/hook/cmake_prefix_path.sh'
+[0.426s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/field_sim/lib'
+[0.426s] Level 1:colcon.colcon_core.shell:create_environment_hook('field_sim', 'ld_library_path_lib')
+[0.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blazar/karin_ws/install/field_sim/share/field_sim/hook/ld_library_path_lib.ps1'
+[0.427s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/blazar/karin_ws/install/field_sim/share/field_sim/hook/ld_library_path_lib.dsv'
+[0.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blazar/karin_ws/install/field_sim/share/field_sim/hook/ld_library_path_lib.sh'
+[0.427s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/field_sim/bin'
+[0.427s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/field_sim/lib/pkgconfig/field_sim.pc'
+[0.427s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/field_sim/lib/python3.12/site-packages'
+[0.427s] Level 1:colcon.colcon_core.shell:create_environment_hook('field_sim', 'pythonpath')
+[0.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blazar/karin_ws/install/field_sim/share/field_sim/hook/pythonpath.ps1'
+[0.428s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/blazar/karin_ws/install/field_sim/share/field_sim/hook/pythonpath.dsv'
+[0.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blazar/karin_ws/install/field_sim/share/field_sim/hook/pythonpath.sh'
+[0.428s] Level 1:colcon.colcon_core.environment:checking '/home/blazar/karin_ws/install/field_sim/bin'
+[0.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/blazar/karin_ws/install/field_sim/share/field_sim/package.ps1'
+[0.428s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/blazar/karin_ws/install/field_sim/share/field_sim/package.dsv'
+[0.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/blazar/karin_ws/install/field_sim/share/field_sim/package.sh'
+[0.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/blazar/karin_ws/install/field_sim/share/field_sim/package.bash'
+[0.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/blazar/karin_ws/install/field_sim/share/field_sim/package.zsh'
+[0.429s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/blazar/karin_ws/install/field_sim/share/colcon-core/packages/field_sim)
+[0.429s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.430s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.430s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.430s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.433s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.433s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.433s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.442s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.442s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/blazar/karin_ws/install/local_setup.ps1'
+[0.443s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/blazar/karin_ws/install/_local_setup_util_ps1.py'
+[0.444s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/blazar/karin_ws/install/setup.ps1'
+[0.445s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/blazar/karin_ws/install/local_setup.sh'
+[0.445s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/blazar/karin_ws/install/_local_setup_util_sh.py'
+[0.446s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/blazar/karin_ws/install/setup.sh'
+[0.446s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/blazar/karin_ws/install/local_setup.bash'
+[0.447s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/blazar/karin_ws/install/setup.bash'
+[0.447s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/blazar/karin_ws/install/local_setup.zsh'
+[0.448s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/blazar/karin_ws/install/setup.zsh'

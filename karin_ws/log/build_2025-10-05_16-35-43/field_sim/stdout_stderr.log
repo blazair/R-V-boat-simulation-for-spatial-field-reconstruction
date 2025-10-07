@@ -1,0 +1,23 @@
+[  2%] Built target field_sim__rosidl_generator_type_description
+[  2%] Built target ament_cmake_python_copy_field_sim
+[  5%] Built target field_sim__cpp
+[ 20%] Built target field_sim__rosidl_generator_c
+[ 29%] Built target field_sim__rosidl_typesupport_c
+[ 38%] Built target field_sim__rosidl_typesupport_introspection_c
+[ 47%] Built target field_sim__rosidl_typesupport_cpp
+[ 55%] Built target field_sim__rosidl_typesupport_fastrtps_cpp
+[ 64%] Built target field_sim__rosidl_typesupport_fastrtps_c
+[ 73%] Built target field_sim__rosidl_typesupport_introspection_cpp
+[ 73%] Built target field_sim
+[ 76%] Built target field_sim__py
+[ 82%] Built target field_sim__rosidl_generator_py
+[ 88%] Built target field_sim_s__rosidl_typesupport_introspection_c
+[ 94%] Built target field_sim_s__rosidl_typesupport_c
+[100%] Built target field_sim_s__rosidl_typesupport_fastrtps_c
+running egg_info
+writing field_sim.egg-info/PKG-INFO
+writing dependency_links to field_sim.egg-info/dependency_links.txt
+writing top-level names to field_sim.egg-info/top_level.txt
+reading manifest file 'field_sim.egg-info/SOURCES.txt'
+writing manifest file 'field_sim.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_field_sim_egg

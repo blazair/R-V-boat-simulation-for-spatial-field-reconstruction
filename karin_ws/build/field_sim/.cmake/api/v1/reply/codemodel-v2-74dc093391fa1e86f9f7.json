@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3db622da9661b597b06f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "field_sim__py",
+					"jsonFile" : "directory-field_sim__py-1e1af927f9c0c37b1f64.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/blazar/karin_ws/build/field_sim/field_sim__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "field_sim",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_field_sim_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_field_sim_egg-0ab58e4300be4281d626.json",
+					"name" : "ament_cmake_python_build_field_sim_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_field_sim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_field_sim-aadf930735529519f72b.json",
+					"name" : "ament_cmake_python_copy_field_sim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "field_sim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-field_sim-a4b18e4b465153661d6c.json",
+					"name" : "field_sim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "field_sim__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-field_sim__cpp-e8232a8c650b0c5c1a45.json",
+					"name" : "field_sim__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "field_sim__py::@77b5ad5c9b64d60668d7",
+					"jsonFile" : "target-field_sim__py-fade5810ed45f506378b.json",
+					"name" : "field_sim__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "field_sim__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-field_sim__rosidl_generator_c-6748099a23a4a3336bd0.json",
+					"name" : "field_sim__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "field_sim__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-field_sim__rosidl_generator_py-104253b965deb37e252b.json",
+					"name" : "field_sim__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "field_sim__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-field_sim__rosidl_generator_type_description-f6aeb408545aa608039b.json",
+					"name" : "field_sim__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "field_sim__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-field_sim__rosidl_typesupport_c-92436a791d3eb315c957.json",
+					"name" : "field_sim__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "field_sim__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-field_sim__rosidl_typesupport_cpp-ceec0995a05dc59aea20.json",
+					"name" : "field_sim__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "field_sim__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-field_sim__rosidl_typesupport_fastrtps_c-891dc728ec36b0be1e62.json",
+					"name" : "field_sim__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "field_sim__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-field_sim__rosidl_typesupport_fastrtps_cpp-119baa2d3f14b3a3cb89.json",
+					"name" : "field_sim__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "field_sim__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-field_sim__rosidl_typesupport_introspection_c-351227425febe0825d86.json",
+					"name" : "field_sim__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "field_sim__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-field_sim__rosidl_typesupport_introspection_cpp-d17b2a599feaf0634fe9.json",
+					"name" : "field_sim__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "field_sim_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-field_sim_s__rosidl_typesupport_c-92e42d634a475cb78e69.json",
+					"name" : "field_sim_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "field_sim_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-field_sim_s__rosidl_typesupport_fastrtps_c-51d3498d366f6bdd6a74.json",
+					"name" : "field_sim_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "field_sim_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-field_sim_s__rosidl_typesupport_introspection_c-2c850a372dbe12dc6cf8.json",
+					"name" : "field_sim_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "field_sim_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-field_sim_uninstall-fb5180a26a197ac989c0.json",
+					"name" : "field_sim_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-345a71c8c32459c6fba9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/blazar/karin_ws/build/field_sim",
+		"source" : "/home/blazar/karin_ws/src/field_sim"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

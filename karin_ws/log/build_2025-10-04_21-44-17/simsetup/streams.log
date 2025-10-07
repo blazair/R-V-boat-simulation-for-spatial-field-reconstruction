@@ -1,0 +1,35 @@
+[0.009s] Invoking command in '/home/blazar/karin_ws/build/simsetup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/blazar/karin_ws/build/simsetup -- -j16 -l16
+[0.030s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.163s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.167s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.210s] Error parsing '/home/blazar/karin_ws/src/simsetup/package.xml':
+[0.775s] Traceback (most recent call last):
+[0.775s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.775s]     main()
+[0.775s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.775s]     raise e
+[0.776s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.776s]     package = parse_package_string(
+[0.776s]               ^^^^^^^^^^^^^^^^^^^^^
+[0.776s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[0.776s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[0.776s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/blazar/karin_ws/src/simsetup/package.xml':
+[0.776s] Error(s):
+[0.776s] - The generic dependency on 'rclpy' is redundant with: exec_depend
+[0.776s] - The generic dependency on 'std_msgs' is redundant with: exec_depend
+[0.776s] - The generic dependency on 'nav_msgs' is redundant with: exec_depend
+[0.798s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.798s]   execute_process(/usr/bin/python3
+[0.798s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.798s]   /home/blazar/karin_ws/src/simsetup/package.xml
+[0.798s]   /home/blazar/karin_ws/build/simsetup/ament_cmake_core/package.cmake)
+[0.798s]   returned error code 1
+[0.798s] Call Stack (most recent call first):
+[0.798s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.798s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.798s]   CMakeLists.txt:17 (ament_lint_auto_find_test_dependencies)
+[0.798s] 
+[0.798s] [0m
+[0.798s] -- Configuring incomplete, errors occurred!
+[0.800s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.802s] Invoked command in '/home/blazar/karin_ws/build/simsetup' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/blazar/karin_ws/build/simsetup -- -j16 -l16

@@ -1,0 +1,7 @@
+float64 latitude
+float64 longitude
+---
+bool success
+float64 temperature
+float64 x_enu
+float64 y_enu

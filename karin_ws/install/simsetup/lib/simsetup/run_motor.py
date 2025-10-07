@@ -1,0 +1,1 @@
+/home/blazar/karin_ws/src/simsetup/scripts/run_motor.py

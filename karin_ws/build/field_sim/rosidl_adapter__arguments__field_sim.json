@@ -1,0 +1,6 @@
+{
+  "package_name": "field_sim",
+  "non_idl_tuples": [
+    "/home/blazar/karin_ws/src/field_sim:srv/SampleField.srv"
+  ]
+}

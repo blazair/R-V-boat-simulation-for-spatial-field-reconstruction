@@ -1,0 +1,1 @@
+/home/blazar/karin_ws/build/simsetup/ament_cmake_core/simsetupConfig-version.cmake

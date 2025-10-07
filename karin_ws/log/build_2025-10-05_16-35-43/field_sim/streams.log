@@ -1,0 +1,24 @@
+[0.011s] Invoking command in '/home/blazar/karin_ws/build/field_sim': CMAKE_PREFIX_PATH=/home/blazar/karin_ws/install/simsetup:/home/blazar/karin_ws/install/field_sim:/home/blazar/workspace/rockytimes_ws/install/localisation:/opt/ros/jazzy:/home/blazar/vrx_ws/install:/home/blazar/workspace/rockytimes_ws/install/mission:/home/blazar/workspace/rockytimes_ws/install/px4_ros_com:/home/blazar/workspace/rockytimes_ws/install/px4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/blazar/karin_ws/build/field_sim -- -j16 -l16
+[0.051s] [  2%] Built target field_sim__rosidl_generator_type_description
+[0.056s] [  2%] Built target ament_cmake_python_copy_field_sim
+[0.066s] [  5%] Built target field_sim__cpp
+[0.067s] [ 20%] Built target field_sim__rosidl_generator_c
+[0.082s] [ 29%] Built target field_sim__rosidl_typesupport_c
+[0.082s] [ 38%] Built target field_sim__rosidl_typesupport_introspection_c
+[0.083s] [ 47%] Built target field_sim__rosidl_typesupport_cpp
+[0.083s] [ 55%] Built target field_sim__rosidl_typesupport_fastrtps_cpp
+[0.083s] [ 64%] Built target field_sim__rosidl_typesupport_fastrtps_c
+[0.084s] [ 73%] Built target field_sim__rosidl_typesupport_introspection_cpp
+[0.099s] [ 73%] Built target field_sim
+[0.113s] [ 76%] Built target field_sim__py
+[0.130s] [ 82%] Built target field_sim__rosidl_generator_py
+[0.145s] [ 88%] Built target field_sim_s__rosidl_typesupport_introspection_c
+[0.146s] [ 94%] Built target field_sim_s__rosidl_typesupport_c
+[0.146s] [100%] Built target field_sim_s__rosidl_typesupport_fastrtps_c
+[0.174s] running egg_info
+[0.183s] writing field_sim.egg-info/PKG-INFO
+[0.183s] writing dependency_links to field_sim.egg-info/dependency_links.txt
+[0.183s] writing top-level names to field_sim.egg-info/top_level.txt
+[0.211s] reading manifest file 'field_sim.egg-info/SOURCES.txt'
+[0.211s] writing manifest file 'field_sim.egg-info/SOURCES.txt'
+[0.227s] [100%] Built target ament_cmake_python_build_field_sim_egg

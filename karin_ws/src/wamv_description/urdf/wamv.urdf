@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<robot name="wamv">
+  <link name="base_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://wamv_description/meshes/WAM-V-Base.dae"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

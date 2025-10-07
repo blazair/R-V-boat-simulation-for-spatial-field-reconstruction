@@ -1,0 +1,30 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/blazar/karin_ws/build/wamv_description
+-- Install configuration: ""
+-- Installing: /home/blazar/karin_ws/install/wamv_description/share/wamv_description/meshes
+-- Installing: /home/blazar/karin_ws/install/wamv_description/share/wamv_description/meshes/gps.dae
+-- Installing: /home/blazar/karin_ws/install/wamv_description/share/wamv_description/meshes/engine.dae
+-- Installing: /home/blazar/karin_ws/install/wamv_description/share/wamv_description/meshes/propeller.dae
+-- Installing: /home/blazar/karin_ws/install/wamv_description/share/wamv_description/meshes/WAM-V-Base.dae
+-- Installing: /home/blazar/karin_ws/install/wamv_description/share/wamv_description/urdf
+-- Installing: /home/blazar/karin_ws/install/wamv_description/share/wamv_description/urdf/wamv.urdf
+-- Installing: /home/blazar/karin_ws/install/wamv_description/share/ament_index/resource_index/package_run_dependencies/wamv_description
+-- Installing: /home/blazar/karin_ws/install/wamv_description/share/ament_index/resource_index/parent_prefix_path/wamv_description
+-- Installing: /home/blazar/karin_ws/install/wamv_description/share/wamv_description/environment/ament_prefix_path.sh
+-- Installing: /home/blazar/karin_ws/install/wamv_description/share/wamv_description/environment/ament_prefix_path.dsv
+-- Installing: /home/blazar/karin_ws/install/wamv_description/share/wamv_description/environment/path.sh
+-- Installing: /home/blazar/karin_ws/install/wamv_description/share/wamv_description/environment/path.dsv
+-- Installing: /home/blazar/karin_ws/install/wamv_description/share/wamv_description/local_setup.bash
+-- Installing: /home/blazar/karin_ws/install/wamv_description/share/wamv_description/local_setup.sh
+-- Installing: /home/blazar/karin_ws/install/wamv_description/share/wamv_description/local_setup.zsh
+-- Installing: /home/blazar/karin_ws/install/wamv_description/share/wamv_description/local_setup.dsv
+-- Installing: /home/blazar/karin_ws/install/wamv_description/share/wamv_description/package.dsv
+-- Installing: /home/blazar/karin_ws/install/wamv_description/share/ament_index/resource_index/packages/wamv_description
+-- Installing: /home/blazar/karin_ws/install/wamv_description/share/wamv_description/cmake/wamv_descriptionConfig.cmake
+-- Installing: /home/blazar/karin_ws/install/wamv_description/share/wamv_description/cmake/wamv_descriptionConfig-version.cmake
+-- Installing: /home/blazar/karin_ws/install/wamv_description/share/wamv_description/package.xml

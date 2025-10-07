@@ -1,0 +1,16 @@
+/home/blazar/karin_ws/install/simsetup/share/simsetup//launch/sim.launch.py
+/home/blazar/karin_ws/install/simsetup/share/ament_index/resource_index/package_run_dependencies/simsetup
+/home/blazar/karin_ws/install/simsetup/share/ament_index/resource_index/parent_prefix_path/simsetup
+/home/blazar/karin_ws/install/simsetup/share/simsetup/environment/ament_prefix_path.sh
+/home/blazar/karin_ws/install/simsetup/share/simsetup/environment/ament_prefix_path.dsv
+/home/blazar/karin_ws/install/simsetup/share/simsetup/environment/path.sh
+/home/blazar/karin_ws/install/simsetup/share/simsetup/environment/path.dsv
+/home/blazar/karin_ws/install/simsetup/share/simsetup/local_setup.bash
+/home/blazar/karin_ws/install/simsetup/share/simsetup/local_setup.sh
+/home/blazar/karin_ws/install/simsetup/share/simsetup/local_setup.zsh
+/home/blazar/karin_ws/install/simsetup/share/simsetup/local_setup.dsv
+/home/blazar/karin_ws/install/simsetup/share/simsetup/package.dsv
+/home/blazar/karin_ws/install/simsetup/share/ament_index/resource_index/packages/simsetup
+/home/blazar/karin_ws/install/simsetup/share/simsetup/cmake/simsetupConfig.cmake
+/home/blazar/karin_ws/install/simsetup/share/simsetup/cmake/simsetupConfig-version.cmake
+/home/blazar/karin_ws/install/simsetup/share/simsetup/package.xml
