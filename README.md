@@ -110,6 +110,3 @@ TORCH_DTYPE = torch.float64 if (not USE_CUDA or torch.cuda.get_device_capability
 * Very high runtime
 
 ---
-
-
-```
