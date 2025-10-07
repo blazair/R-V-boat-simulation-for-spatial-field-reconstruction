@@ -1,0 +1,17 @@
+# WAM-V differential thrust mixer
+# Left and right propellers for differential steering
+
+# Output: 0 = left propeller, 1 = right propeller
+# Input: 0 = throttle, 1 = yaw
+
+# Left propeller: throttle + yaw
+M: 2
+O: 10000 10000 0 -10000 10000
+S: 0 0 10000 10000 0 -10000 10000
+S: 1 0 10000 10000 0 -10000 10000
+
+# Right propeller: throttle - yaw
+M: 2
+O: 10000 10000 0 -10000 10000
+S: 0 0 10000 10000 0 -10000 10000
+S: 1 0 -10000 10000 0 -10000 10000
