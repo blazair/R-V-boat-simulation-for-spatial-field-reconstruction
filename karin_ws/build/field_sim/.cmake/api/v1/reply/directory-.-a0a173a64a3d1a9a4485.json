@@ -392,31 +392,31 @@
 			{
 				"command" : 0,
 				"file" : 2,
-				"line" : 48,
+				"line" : 45,
 				"parent" : 0
 			},
 			{
 				"command" : 0,
 				"file" : 2,
-				"line" : 54,
+				"line" : 51,
 				"parent" : 0
 			},
 			{
 				"command" : 0,
 				"file" : 2,
-				"line" : 60,
+				"line" : 57,
 				"parent" : 0
 			},
 			{
 				"command" : 0,
 				"file" : 2,
-				"line" : 66,
+				"line" : 63,
 				"parent" : 0
 			},
 			{
 				"command" : 12,
 				"file" : 2,
-				"line" : 71,
+				"line" : 68,
 				"parent" : 0
 			},
 			{
@@ -1064,10 +1064,7 @@
 			"paths" : 
 			[
 				"scripts/ground_truth_field_node.py",
-				"scripts/gp_reconstructor_node.py",
 				"scripts/boat_tf_publisher.py",
-				"scripts/test_geotagging.py",
-				"scripts/mission_test.py",
 				"scripts/lawnmower_mission.py",
 				"scripts/field_sampler.py"
 			],

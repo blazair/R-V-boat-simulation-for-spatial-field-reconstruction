@@ -98,15 +98,7 @@ def generate_launch_description():
                     name='boat_tf_publisher',
                     output='screen'
                 ),
-                
-                # Field Sampler
-                Node(
-                    package='field_sim',
-                    executable='field_sampler_node.py',
-                    name='field_sampler',
-                    output='screen'
-                ),
-                
+                    
                 # RViz2 with config
                 Node(
                     package='rviz2',

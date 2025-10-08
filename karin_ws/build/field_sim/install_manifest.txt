@@ -55,10 +55,7 @@
 /home/blazar/karin_ws/install/field_sim/share/field_sim/srv/SampleField.idl
 /home/blazar/karin_ws/install/field_sim/share/field_sim/srv/SampleField.srv
 /home/blazar/karin_ws/install/field_sim/lib/field_sim/ground_truth_field_node.py
-/home/blazar/karin_ws/install/field_sim/lib/field_sim/gp_reconstructor_node.py
 /home/blazar/karin_ws/install/field_sim/lib/field_sim/boat_tf_publisher.py
-/home/blazar/karin_ws/install/field_sim/lib/field_sim/test_geotagging.py
-/home/blazar/karin_ws/install/field_sim/lib/field_sim/mission_test.py
 /home/blazar/karin_ws/install/field_sim/lib/field_sim/lawnmower_mission.py
 /home/blazar/karin_ws/install/field_sim/lib/field_sim/field_sampler.py
 /home/blazar/karin_ws/install/field_sim/share/field_sim//launch/field_validation.launch.py
@@ -69,10 +66,7 @@
 /home/blazar/karin_ws/install/field_sim/share/field_sim//rviz/field_view.rviz
 /home/blazar/karin_ws/install/field_sim/share/field_sim//scripts/lawnmower_mission.py
 /home/blazar/karin_ws/install/field_sim/share/field_sim//scripts/boat_tf_publisher.py
-/home/blazar/karin_ws/install/field_sim/share/field_sim//scripts/test_geotagging.py
 /home/blazar/karin_ws/install/field_sim/share/field_sim//scripts/field_sampler.py
-/home/blazar/karin_ws/install/field_sim/share/field_sim//scripts/mission_test.py
-/home/blazar/karin_ws/install/field_sim/share/field_sim//scripts/gp_reconstructor_node.py
 /home/blazar/karin_ws/install/field_sim/share/field_sim//scripts/ground_truth_field_node.py
 /home/blazar/karin_ws/install/field_sim/share/ament_index/resource_index/package_run_dependencies/field_sim
 /home/blazar/karin_ws/install/field_sim/share/ament_index/resource_index/parent_prefix_path/field_sim

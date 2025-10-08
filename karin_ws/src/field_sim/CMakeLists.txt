@@ -35,10 +35,7 @@ endif()
 # Install Python scripts
 install(PROGRAMS
   scripts/ground_truth_field_node.py
-  scripts/gp_reconstructor_node.py
   scripts/boat_tf_publisher.py
-  scripts/test_geotagging.py
-  scripts/mission_test.py
   scripts/lawnmower_mission.py
   scripts/field_sampler.py
   DESTINATION lib/${PROJECT_NAME}

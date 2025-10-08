@@ -373,10 +373,7 @@ endif()
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/field_sim" TYPE PROGRAM FILES
     "/home/blazar/karin_ws/src/field_sim/scripts/ground_truth_field_node.py"
-    "/home/blazar/karin_ws/src/field_sim/scripts/gp_reconstructor_node.py"
     "/home/blazar/karin_ws/src/field_sim/scripts/boat_tf_publisher.py"
-    "/home/blazar/karin_ws/src/field_sim/scripts/test_geotagging.py"
-    "/home/blazar/karin_ws/src/field_sim/scripts/mission_test.py"
     "/home/blazar/karin_ws/src/field_sim/scripts/lawnmower_mission.py"
     "/home/blazar/karin_ws/src/field_sim/scripts/field_sampler.py"
     )
